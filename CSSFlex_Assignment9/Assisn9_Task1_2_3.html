@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkgrey;
+        }
+
+        .container1 {
+            /* font-family: 'Montserrat', sans-serif; */
+
+            /* font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif; */
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin-bottom: 10px;
+
+        }
+
+        .container2 {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        .container3 {
+            border: 1px solid #ccc;
+        }
+        .container3{
+            display: flex;
+        }
+
+        .container-flex {
+            width: 300px;
+            height: 300px;
+            background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <h3 class="q1">Q1:- Describe the main differeces between the CSS Fexbx layout model and the CSS Grid layout
+            model. When
+            woud you choose to use one over the other?</h3>
+        <p class="ans">The basic difference between CSS grid layout and CSS flexbox layout is that flexbox was designed
+            for layout
+            in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and
+            columns at the same time.The first and biggest thing they share in common is the fact that they are both
+            used for layouts. Before, developers had to struggle with floats. With the help of Flexbox and Grid today,
+            it is possible to easily create all sorts of complex layouts. <br> We should aim to use both of them
+            together, but for different purposes. For your layout, use CSS Grid, for alignment of your elements, use
+            Flexbox.</p>
+    </div>
+    <div class="container2">
+        <h3>Q2:- Explain the role of the followig key proerties in the Fexbox layout model?</h3>
+        <ol>
+            <li>Justify-content:</li>
+            <p>controls alignment of all items on the main axis. <br> The justify-content property is a sub-property of
+                the Flexible Box Layout module. It defines the alignment along the main axis. It helps distribute extra
+                free space leftover when either all the flex items on a line are inflexible, or are flexible but have
+                reached their maximum size</p>
+            <li>align-items:</li>
+            <p> controls alignment of all items on the cross axis. <br>To center our box we use the align-items property
+                to align our item on the cross axis, which in this case is the block axis running vertically.</p>
+            <li>gap:</li>
+            <p>The gap property defines the size of the gap between the rows and between the columns in flexbox, grid or
+                multi-column layout.
+            </p>
+            <li>flex-direction:</li>
+            <p>The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the
+                main-axis, thus defining the direction flex items are placed in the flex container. Reminder: the main
+                axis of a flex container is the primary axis along which flex items are laid out.</p>
+            <li>flex-wrap:</li>
+            <p>The flex-wrap property is a sub-property of the Flexible Box Layout Module. It defines whether the flex
+                items are forced in a single line or can be flowed into multiple lines. If set to multiple lines, it
+                also defines the cross-axis which determines the direction new lines are stacked in, aiding
+                responsiveness layout behavior without CSS media queries. <br>
+        </ol>
+
+    </div>
+    <div class="container3">
+        <h3>Q3:- Write the code to center a div using CSS Fexbox?</h3>
+        <div class="container-flex">
+
+        </div>
+    </div>
+</body>
+
+</html>
